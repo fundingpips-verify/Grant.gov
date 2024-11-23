@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    position: sticky;
+    top: 1px;
+    z-index: 5;
+    width: 100vw;
+    background-color: rgb(57, 78, 138);
+}
+
+.left{
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.grant{
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    position: sticky;
+    top: 5px;
+}
+
+.header{
+    font-size: 35px;
+    position: relative;
+    top: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img{
+    display: inline;
+    float: left;
+    /* margin: auto; */
+}
+
+li, p{
+    display: inline;
+}
+
+
+.gov{
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input{   
+    margin-top: 50px;
+}
+
+.label{
+    margin-top: 300px ;
+    font-size: 15px;
+    padding: 20px;
+    margin-bottom: 100px;
+    z-index: 3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box{
+    width: 150px;
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+
+.legend{
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submit{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    float: right ;
+}
+
+
+.form{
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: auto;
+    margin: auto;
+    background-color: rgb(222, 225, 228);
+    box-shadow: -5px -5px 10px rgb(69, 69, 77) , 5px 5px 10px rgb(69, 69, 77) ;
+}
+
+h2, .cont {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.who, .how{
+    display: block;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.fill{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    display: block;
+    text-align: center;   
+}
+
+h2{
+    font-size: 25px;
+    text-decoration: underline;
+}
